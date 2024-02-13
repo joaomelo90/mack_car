@@ -1,70 +1,23 @@
-# Getting Started with Create React App
+# Mack Car - Oficina Mecânica
+Bem-vindo ao repositório do projeto Mack Car, uma oficina mecânica virtual desenvolvida pela nossa equipe para o cliente. Este projeto visa fornecer uma página web atraente e funcional para a oficina mecânica Mack Car, permitindo que os clientes visualizem os serviços oferecidos, conheçam a equipe e entrem em contato facilmente.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Visão Geral
+Mack Car é uma oficina mecânica que oferece uma variedade de serviços automotivos, desde manutenção básica até reparos avançados. Nosso objetivo com este projeto é criar uma presença online para a Mack Car, apresentando seus serviços de forma clara e profissional.
 
-## Available Scripts
+## Recursos Principais
+Slide de Fotos: Implementamos um componente de slide de fotos usando React, permitindo que os clientes vejam imagens dos serviços da oficina.
 
-In the project directory, you can run:
+CSS Responsivo: Utilizamos o framework Material-UI (@mui) para criar um layout responsivo que se adapta a uma variedade de dispositivos e tamanhos de tela.
 
-### `npm start`
+Páginas Navegáveis: Criamos várias páginas navegáveis para apresentar informações sobre os serviços da oficina, a equipe de mecânicos e os métodos de contato.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tecnologias Utilizadas
+React.js: Uma biblioteca JavaScript para criar interfaces de usuário.
+Material-UI: Um framework de design e componentes React baseado no Material Design.
+HTML/CSS: Linguagens de marcação e estilo para estruturar e estilizar a página web.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Contato
+Se você tiver alguma dúvida ou sugestão sobre o projeto Mack Car, entre em contato conosco através do email:
+## joaopaulomoreiramelo@gmail.com
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Obrigado por contribuir para o sucesso da Mack Car!
