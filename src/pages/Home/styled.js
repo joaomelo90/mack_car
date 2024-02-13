@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import MotorLogo from '../../assets/_4946cd4b-7b42-4431-8248-3f7659790b5b.jpg'
 
 export const Container = styled.div`
-width:100vw;
+width:100%;
 height:100%;
 background: 
 linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
@@ -40,6 +40,7 @@ justify-content:center;
   width:420px; 
   height:420px;
   margin-right:15px;
+  margin-top:90px;
 
 }
 }
@@ -277,17 +278,17 @@ p{
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
-  height: 78vh;
+  height: -1rem;
   .textDescription{
     font-size: 22px;
     line-height: 1.1;
-    margin-top: 218px;
+    margin-top: 47%;
   }
   .gif{
     display:flex;
     justify-content:center;
     height:50px;
-    margin-top:420px
+    margin-top:90%;
   }
   p{
     font-size: 33px;
