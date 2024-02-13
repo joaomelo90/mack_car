@@ -5,7 +5,7 @@ import 'slick-carousel/slick/slick-theme.css';
 
 
 import {
-  Container, ContainderBox, Opening,
+  Container, ContainderBox, Opening,Span,
   TextSpan, Box, MapItem, ContentIcon, TitleIcon, IconContainer, BoxTwo, Address,BoxThree,Dev
 } from './styled';
 import Map from '../../map'
@@ -218,9 +218,9 @@ function App() {
 
       <BoxTwo>
 
-        <p>Quem Somos</p>
+       
         <p className='textDescription'>
-          Somos a oficina mecânica <TextSpan>Mack Car</TextSpan> , especializada em carros nacionais e importados a gasolina e álcool. Com experiência e profissionalismo, oferecemos serviços de manutenção e reparo de qualidade para garantir o melhor desempenho do seu veículo. Confie em nós para cuidar do seu carro como se fosse nosso.
+        <Span>Quem Somos</Span> <br/><br/> Somos a oficina mecânica <TextSpan>Mack Car</TextSpan> , especializada em carros nacionais e importados a gasolina e álcool. Com experiência e profissionalismo, oferecemos serviços de manutenção e reparo de qualidade para garantir o melhor desempenho do seu veículo. Confie em nós para cuidar do seu carro como se fosse nosso.
         </p>
         <div className='gif'>
           <img src={gif} alt='gif' />

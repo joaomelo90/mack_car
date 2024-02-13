@@ -116,15 +116,15 @@ align-items: center;
 }
 .textSlider{
     margin-top:6vh;
-    width:110%;
+    width:100%;
     color:#F5FFFA;
    font-size: 25px;
    font-weight:bold;
    text-align:center;
+   margin-right:50%
 }
 img {
-    margin-left:50px;
-    margin-right: 60px;
+    
     margin-top:10vh;
     width:50%;
     border-radius:50px;
@@ -177,15 +177,21 @@ img{
 
   }
   @media  screen and (min-width: 1200px) and (max-width: 1400px) {
-    img {
-      margin-right: 200px;
-      width:45%;
-}
+  
 }
 `;
 export const TextSpan = styled.span`
   color: red;
 `;
+export const Span = styled.span`
+font-size:40px;
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  font-size:30px;
+
+}
+
+`
 
 export const ContentIcon = styled.div`
 display:flex;
@@ -254,7 +260,7 @@ display:flex;
 justify-content: center;
 align-items: center; 
 p{
-  font-size: 40px;
+ 
     color: white;
     font-weight: bolder;
        position:absolute;
@@ -263,22 +269,22 @@ p{
     text-align: center;
     transform: translate(-50%, -50%);
 
+    line-height: 1.5;
+    font-size: 35px;
+    margin-top:15%;
 }
-.textDescription{
-  margin-top:300px;
-  color: white;
-  font-size: 35px;
-  line-height: 1.5;
-}
+
 .gif{
   opacity:0.8;
-  margin-top:75%;
+  margin-top:74%;
   height:700px;
     
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
-  height: -1rem;
+  height: 83vh;
+
+
   .textDescription{
     font-size: 22px;
     line-height: 1.1;
@@ -288,11 +294,9 @@ p{
     display:flex;
     justify-content:center;
     height:50px;
-    margin-top:90%;
+    margin-top:97%;
   }
-  p{
-    font-size: 33px;
-  }
+
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
@@ -317,6 +321,9 @@ p{
   .gif{
     margin-bottom:300px;
     margin-top:107%;
+  }
+  .textDescription{
+    margin-top:17%;
   }
 
 }
@@ -360,8 +367,8 @@ margin-right:300px;
 }
 
 @media (min-width: 370px) and (max-width: 500px) {
-  margin-right:2px;
-  margin-left:50px;
+  margin-right:1px;
+  margin-left:5px;
 
   .textAddress, .textTime {
     font-size: 15px
