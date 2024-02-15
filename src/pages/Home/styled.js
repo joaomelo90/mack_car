@@ -207,12 +207,12 @@ font-weight:bold;
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .contentText{
-    font-size: 17px;
+    font-size: 15px;
  } 
 
 }
 
-@media screen and (min-width: 501px) and (max-width: 800px) {
+@media screen and (min-width: 501px) and (max-width: 840px) {
  .contentText{
   font-size: 28px;
  } 
@@ -245,7 +245,7 @@ gap: 25px;
 }
 
 
-@media screen and (min-width: 501px) and (max-width: 800px) {
+@media screen and (min-width: 501px) and (max-width: 840px) {
 gap: 37px;
 padding: 23px;
 }
@@ -282,35 +282,39 @@ p{
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
-  height: 83vh;
-
+  height: 57vh;
+  display: inline-block;
 
   .textDescription{
+    width:326px;
     font-size: 22px;
     line-height: 1.1;
-    margin-top: 47%;
+    padding-top:46%;
   }
   .gif{
     display:flex;
     justify-content:center;
     height:50px;
-    margin-top:97%;
+    margin-top:90%;
   }
 
 }
 
-@media screen and (min-width: 481px) and (max-width: 768px) {
-  height: 88vh;
+@media screen and (min-width: 481px) and (max-width: 834px) {
+  height: 44vh;
+  display: inline-block;
   .textDescription{
     font-size: 29px;
     line-height: 1.1;
-    margin-top: 239px;
+    margin-top: 160px;
+    width: 477px;
+   
   }
   .gif{
     display:flex;
     justify-content:center;
     height:50px;
-    margin-top:60%;
+    margin-top:50%;
   }
   p{
     font-size: 36px;
@@ -338,7 +342,7 @@ margin:35px 200px 0 0;
 display:flex;
 justify-content:end;
 
-@media (min-width: 370px) and (max-width: 500px) {
+@media (min-width: 320px) and (max-width: 480px) {
   margin:35px 20px 0 0;
 
 }
@@ -366,7 +370,7 @@ margin-right:300px;
   font-size: 25px
 }
 
-@media (min-width: 370px) and (max-width: 500px) {
+@media (min-width: 320px) and (max-width: 480px) {
   margin-right:1px;
   margin-left:5px;
 
@@ -377,11 +381,13 @@ margin-right:300px;
 }
 
 
-@media (min-width: 501px) and (max-width: 800px) {
-  margin-right:100px;
-
+@media (min-width: 501px) and (max-width: 840px) {
+  margin-right:1px;
+ 
+  .textAddress, .textTime {
+    font-size: 38px
 }
-
+}
 `
 export const BoxThree = styled.div`
 background:#151515;
@@ -414,7 +420,7 @@ img{
   height: 100px;
 }
 
-@media (min-width: 370px) and (max-width: 500px) {
+@media (min-width: 320px) and (max-width: 480px) {
   height:15vh;
   img{
     width: 50px;

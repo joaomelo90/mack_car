@@ -6,7 +6,7 @@ export const Container = styled.div`
     width:25vw;
 }
 
-@media (min-width: 370px) and (max-width: 500px) {
+@media (min-width: 320px) and (max-width: 480px) {
     .leaflet-container{
     height: 37vh;
     width: 34vw;
@@ -14,8 +14,9 @@ export const Container = styled.div`
 
 }
 
-@media (min-width: 501px) and (max-width: 800px) {
+@media (min-width: 501px) and (max-width: 840px) {
     .leaflet-container{
+        
     height: 47vh;
     width: 34vw;
     }

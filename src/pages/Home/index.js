@@ -234,7 +234,7 @@ function App() {
             Endereço:
           </p>
           <p className='textAddress'>
-            R. min. Frederico Barreto, 486 - Bairro dos Casas.< br/>
+            R. min. Frederico Barreto, 480 - Bairro dos Casas.< br/>
             São Bernardo do Campo - SP.
           </p>
           <p className='titleTime'>
